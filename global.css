@@ -9,16 +9,18 @@
 
 body{
     background-color: var(--violet);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('bg-mobile.svg');
+    background-size: contain;
+    /* background-position:  middle; */
+    background-repeat: no-repeat;
+    padding:2rem;
 }
 
-.background{
-    position:absolute;
-    top:0;
-    z-index: -1;
+.fix{
+    width:100vw;
+    height: 100vh;
 }
-.logo{
-    width:10rem;
-    position:absolute;
-    top:2rem; 
-    left:2rem;
-}
+

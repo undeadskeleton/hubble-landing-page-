@@ -1,0 +1,42 @@
+@media (min-width:1440px){
+    body{
+        background-image: url('bg-desktop.svg');
+        background-size:contain;
+        /* background-position: bottom right; */
+    }
+    .desktop-container{
+        display:flex;
+        align-items: center;
+    }
+
+    .logo{
+        width:15rem;
+    }
+
+    .illustration{
+        width:50%;
+        /* height:30%; */
+        object-fit: contain;
+    }
+
+    .text{
+        width: 40%;
+        text-align: left;
+        margin-left: 3rem;
+        align-self:first baseline;
+        margin-top:7rem;
+    }
+
+    .text h1{
+        font-size:3rem;
+    }
+
+    .text p{
+        font-size: 1rem;
+        max-width:50ch;
+    }
+
+    .icons{
+        align-self: end;
+    }
+}

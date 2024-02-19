@@ -1,0 +1,13 @@
+.illustration{
+    width:90%;
+    height: 100%rem;
+    object-fit:fill;
+    display:block;
+    margin:4rem 0;
+}
+
+.logo{
+    width:40%;
+    height: 20%;
+    align-self: flex-start;
+}
